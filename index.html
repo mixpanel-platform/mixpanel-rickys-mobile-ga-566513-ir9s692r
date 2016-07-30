@@ -1,15 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="https://cdn.mxpnl.com/libs/mixpanel-platform/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.mxpnl.com/libs/mixpanel-platform/build/mixpanel-platform.v0.latest.min.css">
-    <script src="https://cdn.mxpnl.com/libs/mixpanel-platform/build/mixpanel-platform.v0.latest.min.js"></script>
-  </head>
-  <body class="mixpanel-platform-body">
-    <h1>Hello, World!</h1>
-    <script>
-      // Run queries and display results here
-    </script>
-  </body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://cdn.mxpnl.com/libs/mixpanel-platform/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.mxpnl.com/libs/mixpanel-platform/build/mixpanel-platform.v0.latest.min.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="https://cdn.mxpnl.com/libs/mixpanel-platform/build/mixpanel-platform.v0.latest.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body class="mixpanel-platform-body">
+        <div class="mixpanel-platform-section">
+            <div id="dateRange"></div>
+            <div id="addEvents">
+                <div id="eventSelectors">
+                </div>
+                <div id="add"></div>
+            </div>
+            <div id="run">Run</div>
+            
+        </div>
+        <div id="reportBody">
+            <div id="steps"></div>
+            <div id="tables"></div>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,143 @@
+#add {
+	background: url(https://cdn.mxpnl.com/cache/db85795727e3c42d2865a215cd85876a/images/reports/funnels3/new_row_spritesheet.png);
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	margin-left: 8px;
+	float: left;
+	top: 2px;
+}
+
+.eventSelector {
+	float:left;
+	margin-left: 10px;
+	margin-bottom:10px;
+}
+
+#addEvents {
+	height: 34px
+}
+
+#dateRange {
+	position: relative;
+	left: 10px;
+	margin-bottom: 10px;
+}
+
+#run {
+	clear:both;
+	vertical-align: 1px;
+	padding: 6px 12px;
+	background-color: #61adf0;
+	background-image: -webkit-linear-gradient(#6ab5f2,#53a0ee);
+	background-image: linear-gradient(#6ab5f2,#53a0ee);
+	box-shadow: inset 0 1px 1px #77bdf4,0 2px 2px -1px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	border: 1px solid #4d93d7;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+	border-radius: 3px;
+	cursor: pointer;
+	font-weight: bold;
+	max-width: 26px;
+	left: 10px;
+    position: relative;
+}
+
+#steps {
+	position: relative;
+	margin-left: -112.5px;
+	text-align: center;
+	left: 50%;
+	width: 120px;
+	margin-top: 47px;
+	cursor: pointer;
+}
+.step {
+	height: 58px;
+	width: 225px;
+	background: #59aae9;
+	color: white;
+	font-family: "Helvetica Neue", helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 34px;
+	margin-bottom: 50px;
+	border: 1px solid #647997;
+    border-radius: 5px;
+}
+
+.eventCount {
+	position: relative;
+	top: -10px;
+}
+
+.percentage {
+	clear: both;
+    vertical-align: 1px;
+    padding: 6px 12px;
+    background-color: #3f516b;
+    background-image: linear-gradient(#5b6f8c,#7187a8);
+    box-shadow: inset 0 1px 1px #647997,0 2px 2px -1px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    border: 1px solid #647997;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+    border-radius: 3px;
+    font-weight: bold;
+    max-width: 35px;
+    left: 65px;
+    top: -23px;
+    margin-left: 17px;
+    position: relative;
+}
+table {
+    font-family: "Helvetica Neue", helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 300px;
+    color:#3f516b;
+    z-index: 1;
+}
+
+td, th {
+    border: 1px solid #3f516b;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dee3ec;
+}
+#before {
+	position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-left: -458px;
+    margin-top: 55px;
+}
+#after {
+	position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-left: 155px;
+    margin-top: 55px;
+}
+.right-arrow {
+    background: url(//cdn.mxpnl.com/cache/0a836ac387413f8cfa0ac97c5618c8bf/images/reports/arrow-dropshadow.png) no-repeat;
+    background-position: 0 0;
+    height: 10px;
+    width: 10px;
+    margin: 0px;
+    left: 8px;
+    top: 13px;
+    float: left;
+    position: relative;
+}
+.table_description {
+    font-size: 12px;
+    font-weight: bold;
+    color: #a4afc2;
+    position:relative;
+    left: 50%;
+    margin-left: -64px;
+}
